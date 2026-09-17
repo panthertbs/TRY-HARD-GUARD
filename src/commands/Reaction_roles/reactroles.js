@@ -72,6 +72,21 @@ export default {
                         .setDescription('Fifth role to add')
                         .setRequired(false)
                 )
+                .addRoleOption(option =>
+                    option.setName('role6')
+                        .setDescription('Fifth role to add')
+                        .setRequired(false)
+                )
+                .addRoleOption(option =>
+                    option.setName('role7')
+                        .setDescription('Fifth role to add')
+                        .setRequired(false)
+                )
+                .addRoleOption(option =>
+                    option.setName('role8')
+                        .setDescription('Fifth role to add')
+                        .setRequired(false)
+                )
         )
         .addSubcommand(subcommand =>
             subcommand
